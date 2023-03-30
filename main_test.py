@@ -5,7 +5,7 @@ import main
 class MainTest(unittest.TestCase):
     def test_helloworld(self):
         ret = main.helloworld("Test")
-        self.assertEqual(ret, f"Hello World Chris!")
+        self.assertEqual(ret, f"Hello World Chan-Sik!")
 
 
 if __name__ == "__main__":
